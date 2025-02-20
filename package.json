@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.7",
+    "tailwindcss": "^4.0.7"
+  },
+  "name": "bostonuzstudente",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "run": "http-server",
+    "watch": "npx @tailwindcss/cli -i src/main.css -o css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
