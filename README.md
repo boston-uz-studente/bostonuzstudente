@@ -1,2 +1,1 @@
-# bostonuzstudente
-Stranica podrske studentima iz Bostona
+# Boston uz studente
