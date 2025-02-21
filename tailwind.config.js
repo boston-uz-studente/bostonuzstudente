@@ -3,9 +3,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'monserrat': ['"Monserrat", sans-serif'],
-      },
+        'oswald': ['"Oswald", sans-serif'],
+      }
     },
   },
+  content: ['./index.html'],
   variants: {},
   plugins: [],
 }
