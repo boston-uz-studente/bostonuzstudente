@@ -35,6 +35,12 @@
                 collapsed, claiming 15 lives.</p>
             <p class="mb-12">Serbian people around the world sent their support to the best and the brightest back home,
                 and now its time for us to do the same!</p>
+            <div class="flex justify-center">
+                <div class="mb-12 p-2 shadow-lg transform-gpu -rotate-1 hover:rotate-2 transition-all duration-100 cursor-pointer" data-modal="video-modal">
+                    <img src="video/video1-play.jpg" width="300" height="200" />
+                </div>
+            </div>
+            
             <h2 class="font-oswald text-2xl mb-6 uppercase bg-primary text-white px-3 py-2 inline-block">What do we do?
             </h2>
             <p class="mb-12">We stand in silence for 15 minutes to honor the 15 lives, some of them children, lost in
@@ -119,6 +125,19 @@
         <!-- <p class="text-lg text-center mb-12 max-w-[26rem] mx-6">Stand with students in <span data-countdown></span> at
             Copley Square (Boston Public Library)</p>
         <script src="js/countdown.js"></script> -->
+
+        <!-- Video Modal -->
+        <div id="video-modal" class="fixed inset-0 hidden items-center justify-center h-screen bg-[#0000009c] backdrop-blur-sm">
+            <div class="relative flex items-center justify-center h-screen" id="video-bg">
+                <video id="video" class="w-[32rem]" src="video/video1.mp4" frameborder="0" allowfullscreen autoplay controls></video>
+                <button id="close-modal" class="absolute top-0 right-0 p-2 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script src="js/video-modal.js"></script>
     </div>
 </body>
 
