@@ -13,5 +13,6 @@ document.querySelectorAll('[data-modal]').forEach(modal => {
 document.getElementById('video-modal').addEventListener('click', function(e) {
     if (e.target.id === 'video-bg') {
         document.getElementById('video-modal').classList.add('hidden');
+        document.getElementById('video').pause();
     }
 });
